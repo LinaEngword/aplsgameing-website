@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APLS GAMEING - ร่วมสร้างมิตรภาพไร้พรมแดน</title>
+    <style>
+        /* โทนสีพื้นหลังมืดสไตล์เกมมิ่ง เข้ากับโลโก้ */
+        body {
+            background-color: #06060a;
+            background-image: radial-gradient(circle at top, #160a2c 0%, #06060a 60%);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            min-height: 100vh;
+        }
+        
+        .header {
+            padding: 40px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-bottom: 4px solid transparent;
+            border-image: linear-gradient(to right, #00d2ff, #8a2be2) 1;
+        }
+
+        .logo {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 15px rgba(0, 210, 255, 0.4));
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin: 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            background: linear-gradient(to bottom, #00d2ff, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 10px rgba(138, 43, 226, 0.5));
+        }
+
+        p.slogan {
+            font-size: 1.5em;
+            color: #b3e5fc;
+            margin-top: 10px;
+            font-style: italic;
+            text-shadow: 0 0 5px rgba(0, 210, 255, 0.5);
+        }
+
+        .content {
+            padding: 50px 20px;
+        }
+
+        .description {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #cccccc;
+        }
+
+        .btn-container {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            border: 2px solid transparent;
+        }
+
+        .btn:hover {
+            transform: translateY(-5px);
+        }
+
+        .btn-discord {
+            background-color: #5865F2;
+            box-shadow: 0 0 15px rgba(88, 101, 242, 0.6);
+        }
+        .btn-discord:hover {
+            box-shadow: 0 0 25px rgba(88, 101, 242, 1);
+            border-color: #ffffff;
+        }
+
+        .btn-line {
+            background-color: #00B600;
+            box-shadow: 0 0 15px rgba(0, 182, 0, 0.6);
+        }
+        .btn-line:hover {
+            box-shadow: 0 0 25px rgba(0, 182, 0, 1);
+            border-color: #ffffff;
+        }
+
+        .video-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(138, 43, 226, 0.3);
+        }
+
+        .video-section h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0, 210, 255, 0.8);
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            max-width: 900px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.3), 0 0 40px rgba(138, 43, 226, 0.2);
+            border: 2px solid rgba(0, 210, 255, 0.5);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ส่วนหัวของเว็บไซต์ -->
+    <div class="header">
+        <!-- 
+        สำคัญ: หลังจากที่คุณอัปโหลดรูป Code_Generated_Image (5).jpg ขึ้น GitHub แล้ว 
+        ให้นำลิงก์ Raw ของรูปภาพมาใส่แทนที่ลิงก์ด้านล่างนี้ 
+        -->
+        <img src="https://raw.githubusercontent.com/ชื่อยูสเซอร์/ชื่อrepository/main/Code_Generated_Image(5).jpg" alt="APLS GAMING Logo" class="logo">
+        
+        <h1>APLS GAMEING</h1>
+        <p class="slogan">"ร่วมสร้างมิตรภาพไร้พรมแดน"</p>
+    </div>
+
+    <!-- ส่วนเนื้อหาหลัก -->
+    <div class="content">
+        <p class="description">ยินดีต้อนรับเข้าสู่แคลนของเรา! มาร่วมสนุก พูดคุย และลุยไปด้วยกัน<br>กดปุ่มด้านล่างเพื่อเข้าร่วมคอมมูนิตี้ของเราได้เลย</p>
+
+        <!-- ส่วนปุ่มกด Discord และ LINE -->
+        <div class="btn-container">
+            <a href="https://discord.gg/cDTWzQRunA" class="btn btn-discord" target="_blank" rel="noopener noreferrer">เข้าร่วม Discord</a>
+            <a href="https://line.me/ti/g2/tvBDHH-tdwUrGGWV2cLGhHwUoNeyvVzLtbxDzQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="btn btn-line" target="_blank" rel="noopener noreferrer">เข้ากลุ่ม LINE</a>
+        </div>
+
+        <!-- ส่วนแสดงคลิปสตรีม YouTube -->
+        <div class="video-section">
+            <h2>🔴 สตรีม & คลิปไฮไลท์ล่าสุด</h2>
+            
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/gaGgG6hbI64" 
+                    title="APLS GAMEING YouTube Stream" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
